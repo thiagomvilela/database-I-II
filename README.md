@@ -34,6 +34,8 @@ Explain the fundamental concepts and operational aspects of a database, the vari
 - User Management.
 - Introduction to Non-Relational Databases.
 
+- [Project development of the 2nd unit: Infinity](https://github.com/thiagomvilela/infinity)
+
 ### 🛠 Technologies
 
 The following tools were used in the construction of the project:
