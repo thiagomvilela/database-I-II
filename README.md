@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="DatabaseI-II" src="./img/logo.png" />
+  <img alt="DatabaseI-II" src="database-I-II(logo).png" />
 </h1>
 
 <h1 align="center">Database I and Database II</h1>
