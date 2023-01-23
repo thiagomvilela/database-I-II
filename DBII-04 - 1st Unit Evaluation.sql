@@ -123,14 +123,14 @@ SELECT * FROM dual;
 SELECT * FROM Leitor;
 
 INSERT ALL
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (1, 1, '17/05/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (2, 1, '17/05/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (3, 1, '17/05/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (4, 2, '01/03/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 2, '01/03/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 3, '01/02/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 4, '15/01/2022')
-    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 5, '02/01/2022')
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (1, 1, TO_DATE('17/05/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (2, 1, TO_DATE('17/05/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (3, 1, TO_DATE('17/05/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (4, 2, TO_DATE('01/03/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 2, TO_DATE('01/03/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 3, TO_DATE('01/02/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 4, TO_DATE('15/01/2022','DD/MM/YYYY'))
+    INTO Requisicao (codLivro, biLeitor, dataRequisicao) VALUES (5, 5, TO_DATE('02/01/2022','DD/MM/YYYY'))
 SELECT * FROM dual;
 
 SELECT * FROM Requisicao;

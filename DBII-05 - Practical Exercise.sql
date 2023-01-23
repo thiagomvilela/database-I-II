@@ -112,13 +112,13 @@ INSERT ALL
 SELECT * FROM dual;
 
 INSERT ALL
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (1, '26/05/2022', 'PAC', 1, 1, 1, 20, 292.40)
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (2, '15/05/2022', 'PAC Grandes Formatos', 2, 2, 2, 20, 309.60)
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (3, '01/05/2022', 'PAC Pagamento na Entrega', 3, 3, 3, 40, 584.80)
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (4, '20/04/2022', 'Remessa Econômica', 4, 8, 4, 50, 731.00)
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (5, '10/04/2022', 'Sedex', 5, 9, 5, 60, 877.20)
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (6, '10/04/2022', 'Sedex 10', 6, 10, 6, 70, 1023.40)
-    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (7, '10/04/2022', 'Sedex Hoje', 7, 10, 7, 90, 1315.80)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (1, TO_DATE('26/05/2022','DD/MM/YYYY'), 'PAC', 1, 1, 1, 20, 292.40)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (2, TO_DATE('15/05/2022','DD/MM/YYYY'), 'PAC Grandes Formatos', 2, 2, 2, 20, 309.60)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (3, TO_DATE('01/05/2022','DD/MM/YYYY'), 'PAC Pagamento na Entrega', 3, 3, 3, 40, 584.80)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (4, TO_DATE('20/04/2022','DD/MM/YYYY'), 'Remessa Econômica', 4, 8, 4, 50, 731.00)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (5, TO_DATE('10/04/2022','DD/MM/YYYY'), 'Sedex', 5, 9, 5, 60, 877.20)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (6, TO_DATE('10/04/2022','DD/MM/YYYY'), 'Sedex 10', 6, 10, 6, 70, 1023.40)
+    INTO FRETE_T (cod_frete, data_f, descricao, cod_cliente, cod_cidade, cod_funcionario, peso, valor_frete) VALUES (7, TO_DATE('10/04/2022','DD/MM/YYYY'), 'Sedex Hoje', 7, 10, 7, 90, 1315.80)
 SELECT * FROM dual;
 
 -- Em seguida, efetuar as consultas pedidas:
